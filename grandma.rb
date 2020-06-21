@@ -18,7 +18,7 @@ def say_huh_speak_up_sonny_ten_times
    phrase = "Hi Nana, how are you"
    puts phrase
    puts phrase
-   puts phrase  
+   puts phrase
    puts phrase
    puts phrase
    puts phrase
