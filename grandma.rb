@@ -22,5 +22,3 @@ if speaking-grandma != speaking-grandma.upcase
 else 
   random_year = 1938
   puts "NO, NOT SINCE + random_year"
-  
-
