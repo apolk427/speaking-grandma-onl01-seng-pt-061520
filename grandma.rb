@@ -13,11 +13,14 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 #speak_to_grandma
+puts "I LOVE YOU TOO PUMPKIN!"
+speaking-grandma == "I LOVE YOU GRANDMA!"
 while true
-if phrase == .downcase
-  puts"HUH! SPEAK UP, SONNY!"
-elsif  phrase == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
-else
-  puts"NO, NOT SINCE 1938!"
-end
+speaking-grandma= gets.chomp
+if speaking-grandma != speaking-grandma.upcase
+  puts "HUH?! SPEAK UP, SONNY!"
+else 
+  random_year = 1938
+  puts "NO, NOT SINCE + random_year"
+  
+
