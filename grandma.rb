@@ -13,17 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 #speak_to_grandma
-
-def say_huh_speak_up_sonny_ten_times
-   phrase = "Hi Nana, how are you"
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
-   puts phrase
+while true 
+if phrase == .downcase
+  puts"HUH! SPEAK UP, SONNY!"
+elsif  phrase == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+else 
+  puts"NO, NOT SINCE 1938!"
 end
