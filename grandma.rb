@@ -13,12 +13,12 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 #speak_to_grandma
-puts "I LOVE YOU TOO PUMPKIN!"
-speaking-grandma == "I LOVE YOU GRANDMA!"
-while true
-speaking-grandma= gets.chomp
-if speaking-grandma != speaking-grandma.upcase
+def speak_to_grandma(talk)
+  if talk == "I LOVE YOU GRANDMA"
+puts"I LOVE YOU TOO PUMPKIN!"
+elsif talk== talk.upcase
+  puts "NO, NOT SINCE 1938!"
+else
   puts "HUH?! SPEAK UP, SONNY!"
-else 
-  random_year = 1938
-  puts "NO, NOT SINCE + random_year"
+end
+end 
