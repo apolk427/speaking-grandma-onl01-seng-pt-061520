@@ -13,11 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 #speak_to_grandma
-while true 
+while true
 if phrase == .downcase
   puts"HUH! SPEAK UP, SONNY!"
 elsif  phrase == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
-else 
+else
   puts"NO, NOT SINCE 1938!"
 end
